@@ -1,0 +1,620 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.up_header_div{
+    /* display: inline; */
+    height: 45px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction:column ;
+}
+.div1{
+    color: rgb(81, 68, 182);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+}
+#aaa{
+    background-color: rgb(46, 43, 48);
+
+}
+#logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.noth{
+    text-decoration: 5px underline rgb(4, 203, 203);
+}
+#container{
+    display: flex;
+    /* gap: 250px; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(46, 43, 48);
+    height: 35px;
+    padding-top: 40px;
+}
+.sub_secContainer{
+    display: flex;
+    gap: 55px;
+    padding-right: 10px;
+}
+#solu_ul{
+    display: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    position: absolute;
+    top: 110px;
+    border-radius: 10px;
+    list-style-type: none;
+    width: 180px;
+    height: 320px;
+}
+#anvil_logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#div1:hover ul{
+    display: block;
+}
+#soul_ul1{
+    display: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    position: absolute;
+    top: 110px;
+    border-radius: 10px;
+    width: 180px;
+    height: 120px;
+    list-style-type: none;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+#div2:hover ul{
+    display: block;
+}
+#soul_ul2{
+    display: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    position: absolute;
+    top: 110px;
+    list-style-type: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 230px;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+
+#div3:hover ul{
+    display: block;
+}
+.navebare_contant{
+    text-decoration: none;
+    color: rgb(147, 152, 153);    
+}
+.bodyContent{
+    background-color: rgb(46, 43, 48);
+    padding-top: 50px;
+}
+.firstBodyContent{
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* padding-top: 30px; */
+}
+.firstBodyContent:hover{
+    cursor: pointer;
+}
+
+#btn1{
+    align-items: center;
+    height: 60px;
+    width: 180px;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgb(247, 241, 241);
+    
+}
+.secnBtn{
+    background-color: rgb(46, 43, 48);
+
+}
+.firstBtn{
+    background-color: rgba(5, 200, 200, 0.975);
+}
+#btn_div{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 50px;
+}
+#body_thrdcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    flex-direction: row;
+    
+}
+.sub_thrdcontainer{
+    display: flex;
+    gap: 60px;
+    color: white;
+    padding-top: 40px;
+
+}
+.first_heading{
+    font-weight: 900;
+    
+}
+.headNo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(92, 91, 93);
+}
+#body_thrdcontainerA{
+    padding-top: 50px;
+}
+#body_thrdcontainerB{
+    /* border: 2px solid white; */
+    height: 450px;
+    width: 800px;
+    margin:110px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#img1{
+    height: 450px;
+    width: 730px;
+}
+
+#sub_furtContainer{
+    /* height: 350px; */
+    position: absolute;
+    right: 300px;
+    width: 700px;
+    text-align: center;
+}
+.furContainer1{
+    /* height: 100px; */
+    /* display: none; */
+}
+#sub_fifContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 350px;
+}
+.image_section{
+    height: 100px;
+    width: 100px;
+}
+#man_para{
+     /* text-align: center; 
+    width: 100vh;
+    margin-top: 100px;  */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+    font-weight: 900;
+    color: white;
+    margin-left: auto; */
+}
+#para1{
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin-top: 100px;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    background-color: rgb(10, 194, 194);
+    font-weight: 900;
+    color: white;
+}
+.basipoint{
+    height: 50px;
+    width: 100px;
+    padding-top: 30px;
+}
+.flex{
+    display: flex;
+}
+.img2{
+    height: 270px;
+    width: 550px;
+    padding-right: 10px;
+    box-shadow: 4px 4px 3px 4px rgb(207, 205, 205);
+}
+.img5{
+    height: 300px;
+    width: 310px;
+    padding-top: 50px;
+}
+.img4{
+    height: 300px;
+    width: 370px;
+    padding-top: 50px;
+}
+/* .img3{
+    padding-top: 200px;
+} */
+
+.contSix{
+    padding-top: 80px;
+}
+.sub_sixContainerA{
+    width: 180px;
+    padding-left: 50px;
+    line-height: 1.9;
+}
+.sub_contSixA{
+    width: 550px;
+    border: 2px solid white;
+    box-shadow: 4px 4px 3px 4px rgb(207, 205, 205);
+    padding-left: 30px;
+}
+.img3{
+    padding-top: 100px;
+    overflow: hidden;
+}
+.linheight{
+
+    line-height: 45px;
+}
+.lineSpace{
+    word-spacing: 9px;
+}
+.btn{
+    border: white;
+}
+.para3{
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: 3px underline rgb(4, 209, 209);
+}
+/* #imgsec{
+    overflow: hidden;
+} */
+.span1{
+    /* background-color: rgb(4, 108, 220); */
+    color: rgb(4, 108, 220);
+}
+.sub_contSixB{
+    width: 560px;
+    padding-left: 80px;
+    box-shadow: 4px 4px 3px 4px rgb(207, 205, 205);;
+}
+.sub_contSixAI{
+    width: 300px;
+}
+.numpy_section{
+    padding-left: 70px;
+}
+#div5{
+    height: 200px;
+    width: 270px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+.sub_contSixAb{
+    padding-top: 59px;
+    border-radius: 10px;
+}
+.sub_contSixAa{
+    box-shadow: 4px 4px 3px 4px rgb(207, 205, 205);
+    border-radius: 10px;
+}
+#sub_sevcontA{
+    display: flex;
+    width: 200px;
+    padding-left: 50px;
+}
+.para2{
+    padding-left: 50px;
+    padding-right: 10px;
+}
+.contSix{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.linheight1{
+    line-height: 30px;
+}
+.linheight2{
+    line-height: 70px;
+}
+.numpy{
+    height: 50px;
+    width: 140px;
+}
+
+.containerSeven{
+    height: 200vh;
+    margin-top: 70px;
+    /* text-align: center; */
+    align-content: center;
+    padding-left: 200px;
+    line-height: 80px;
+    font-size: larger;
+    font-weight: 900;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    background-color: black;
+    color: white;
+}
+.li_portion{
+    list-style-type: none;
+    color: rgb(147, 144, 144);
+}
+.sev_btn{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border: none;
+    line-height: 50px;
+    color: rgb(147, 144, 144);
+}
+.hov_er:hover{
+    cursor: pointer;
+    color: rgb(235, 225, 225);
+}
+.sevfrt_btn{
+    color: rgb(10, 199, 199);
+}
+.IInd_btn{
+    padding-left: 20px;
+}
+.sev_btnB{
+    background-color: rgb(7, 179, 179);
+    height: 50px;
+    width: 170px;
+    font-size: larger;
+    font-weight: 800;
+    color: white;
+    
+    border: none;
+}
+#sev_btnB{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 662vh;
+    left: 550px;
+}
+#footer_container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.footer_listPortion{
+    list-style-type: none;
+    line-height: 40px;
+}
+.eit_cont{
+    text-align: center;
+    padding-top: 70px;
+}
+#etp{
+    text-align: left;
+    padding-left: 20px;
+}
+.et_btn{
+    border: none;
+    color: rgb(6, 194, 194);
+    font-size: larger;
+    font-weight: 600;
+}
+.et_btn:hover{
+    cursor: pointer;
+}
+.nin_div{
+    /* display: flex;
+    flex-direction: row; */
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.nin_divA{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 50px;
+    row-gap: 50px;
+    text-align: center;
+    
+}
+.man_imgSection{
+    height: 270px;
+    width: 340px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.man_imgSection:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 8px 8px rgb(162, 225, 236);
+}
+.nin_divB{
+    /* padding: 0px 30px; */
+    padding-top: 50px;
+    
+    
+}
+.nin_para{
+    line-height: 30px;
+    color: rgb(59, 58, 58);
+}
+#nin_btn{
+    height: 40px;
+    width: 160px;
+    font-size: larger;
+    font-weight: 900;
+    border: none;
+    background-color: rgb(9, 210, 210);
+    color: white;
+}
+.btnnn{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.ten_container{
+    display: flex;
+    justify-content: space-around;
+    /* height: 950px;
+    width: 400px; */
+}
+.ten_subCont{
+    /* height: 500px; */
+    width: 500px;
+    margin-top: 40px;
+}
+.tenBtn{
+    color: rgb(13, 212, 212);
+    background-color: rgb(224, 245, 240);
+    border: none;
+    font-size: larger;
+    font-weight: 600;
+}
+.tenBtn:hover{
+    cursor: pointer;
+}
+.ten_subConta{
+    background-color: rgb(237, 249, 246);
+    /* padding-top: 150px; */
+    
+}
+.ten_subContb{
+    background-color: rgb(235, 249, 246);
+    padding-top: 50px;
+
+}
+.tenHead{
+    text-decoration:3px underline rgb(4, 202, 202);
+}
+.tenPara{
+    font-size: larger;
+    font-weight: 700;
+    line-height: 30px;
+}
+.paraHead{
+    color: rgb(129, 126, 126);
+}
+.lofar_btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+.lofar_btna{
+    height: 70px;
+    width: 290px;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 40px;
+}
+.lofar_btna:hover{
+    cursor: pointer;
+    background-color: rgb(57, 56, 56);
+}
+#div10{
+    padding-top: 50px;
+}
+.div10{
+    text-align: center;
+    /* padding-top: 50px; */
+    /* line-height: 20px; */
+    word-spacing: 2px;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+.div10a{
+    color: rgb(96, 93, 93);
+
+}
+/* .btn_sec{
+    padding-top: 50px;
+} */
+.btn_colora{
+    background-color: rgb(4, 202, 202);
+    color: white;
+    border: none;
+}
+.btn_colora:hover{
+    background-color: rgb(10, 173, 173);
+}
+.btn_colorb{
+    background-color: white;
+    color: black;
+}
+.btn_colorb:hover{
+    background-color: rgb(32, 31, 31);
+    color: white;
+    
+}
+
+
+footer{
+    background-color: rgb(8, 202, 202);
+    color: white;
+    margin-top: 100px;
+}
+.foot_ancher{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px 5px;
+    padding-top: 30px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.foot_lastDiv{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(218, 213, 213);
+}
+#last_ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    padding-right: 30px;
+}
+#last_ul:hover{
+    cursor: pointer;
+}
+#last_para{
+    padding-left: 50px;
+}
